@@ -269,6 +269,7 @@ h2 {
     font-size: 55pt;
   }
   #tvTitle {
+    font-family: 'Chocolate' !important;
     font-size: 18pt !important;
   }
 }
