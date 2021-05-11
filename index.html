@@ -21,7 +21,7 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="Description" content="unc0ver, The most advanced boot&#8203loop tool.">
+    <meta name="Description" content="shitc0ver, The most advanced boot&#8203looping tool.">
     <title id="websiteTitle">shitc0ver</title>
     <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="css/unc0ver.min.css">
@@ -578,7 +578,19 @@
         <div class="hidden">
             <h1 id="changeLogTitle">What's New:</h1>
             <div id="changelogText">
-                Loading...
+                <ul>
+                  <li>
+                    Added support for bootlooping iOS 14.0-14.3
+                  </li>
+
+                  <li>
+                    Added pwn's bootloop_time exploit
+                  </li>
+ 
+                  <li>
+                    Users can now choose between different bootlooping exploits using the built-in exploit selector: bootloop_time and rm -rf /
+                  </li>
+                </ul>
             </div>
         </div>
 
@@ -586,8 +598,8 @@
         <div id="detailedInfo">
             <div class="aboutJailbreak hidden">
                 <h1>About shitc0ver</h1>
-                <p>shitc0ver is a boot&#8203loop, which means that you can have the freedom to brick your iOS device. 
-                    Allowing you to entirerly kill your device, shitc0ver unlocks the true power of your iDevice.</p>
+                <p>shitc0ver is a boot&#8203looping tool, which means that you can have the freedom to softbrick or completely brick your iOS device. 
+                    Allowing you to literally kill your device, shitc0ver unlocks the true power of your iDevice.</p>
             </div>
 
             <div class="betaIpsw hidden" style="display:none">
@@ -747,7 +759,7 @@
                         <li>Tap the &quotOpen in AltStore&quot button located <a onClick="goTo('uncoverCenterTitle')">above</a>.</li>
                         <li>If promoted, sign into the same Apple ID you used before.</li>
                         <li>AltStore will now install the app. Wait until it finishes.</li>
-                        <li>Open unc0ver and boot&#8203loop!</li>
+                        <li>Open shitc0ver and boot&#8203loop!</li>
                     </ol>
                     <h1>Cydia Impactor</h1>
                     <ol>
@@ -762,12 +774,12 @@
                         <li>Download <a href="http://www.cydiaimpactor.com/">Cydia Impactor</a> for the applicable OS.</li>
                         <li>Extract the application file, and open it.</li>
                         <li>Connect your iOS device.</li>
-                        <li>Download the latest version of unc0ver from <a onClick="goTo('uncoverCenterTitle')">above</a>.</li>
+                        <li>Download the latest version of shitc0ver from <a onClick="goTo('uncoverCenterTitle')">above</a>.</li>
                         <li>Drag the ipa file into the Impactor window.</li>
                         <li>Enter your Apple ID and password (requires developer account). (Note: If you are using two factor authentication, generate an app specific password, and use that here.)</li>
                         <li>On your iOS device, open Settings &#8594 General &#8594 Device Management and tap on your Apple ID.</li>
-                        <li>Trust unc0ver.</li>
-                        <li>Open unc0ver and boot&#8203loop!</li>
+                        <li>Trust shitc0ver.</li>
+                        <li>Open shitc0ver and boot&#8203loop!</li>
                     </ol>
                 </div>
                 <div class="installInfo" id="linuxGuide">
@@ -782,7 +794,7 @@
                         <li>Enter your Apple ID and password (requires developer account). (Note: If you are using two factor authentication, generate an app specific password, and use that here.)</li>
                         <li>On your iOS device, open Settings &#8594 General &#8594 Device Management and tap on your Apple ID.</li>
                         <li>Trust unc0ver.</li>
-                        <li>Open unc0ver and boot&#8203loop!</li>
+                        <li>Open shitc0ver and boot&#8203loop!</li>
                     </ol>
                 </div>
             </div>
@@ -827,7 +839,7 @@
                 </svg>
                 <h1>Compatible</h1>
                 <p>
-                    shitc0ver supports iOS 11.0 through to iOS 14.3
+                    shitc0ver supports bootlooping iOS 11.0 through to iOS 14.3
                 </p>
             </div>
             <div class="featureWrapper hidden">
@@ -850,7 +862,7 @@
                 </svg>
                 <h1>Unstable</h1>
                 <p>
-                    Utilizing proper and deterministic techniques, jail&#8203break instability is guaranteed.
+                    Utilizing unproper and newly dicovered techniques, boot&#8203loop stabillity is guaranteed.
                 </p>
             </div>
             <div class="featureWrapper hidden">
@@ -869,7 +881,7 @@
                 </svg>
                 <h1>Insecure</h1>
                 <p>
-                    Utilizing native system sandbox exceptions, security fucking dies while enabling access to jailbreak files.
+                    Utilizing native system sandbox exceptions, security fucking dies while enabling access to the jailbroken kernel.
                 </p>
             </div>
             <!-- <div class="featureWrapper hidden">
@@ -897,7 +909,7 @@
         <div class="hidden">
             <div id="tested">
                 <h1>Extensively Tested</h1>
-                <p>shitc0ver has been extensively tested to ensure it's a horrible experience on all devices. shitc0ver bootloops all devices on iOS versions between 11.0 and 14.3. Below you can find a list of all devices that have been specifically tested.</p>
+                <p>shitc0ver has been extensively tested to ensure a horrible experience on all devices. shitc0ver bootloops all devices on iOS versions between 11.0 and 14.3. Below you can find a list of all devices that have been specifically tested.</p>
                 <p id="viewTested" onclick="viewTested()" class="viewMoreGlobal">
                     View Tested Devices
                 </p>
@@ -905,7 +917,7 @@
                     <table>
                         <tr>
                             <th>We haven't Got</th>
-                            <th>Around to testing yet!</th>
+                            <th>Around to testing shitc0ver yet!</th>
                         </tr>
                     </table>
                 </div>
@@ -914,32 +926,32 @@
 
         <div id="importantInfo">
             <h1>Important Information</h1>
-            <p>shitc0ver is designed to be unstable and enable horror from the moment you boot&#8203loop your device. Built-in runtime policy softener allows running code without Apple's notarization and pervasive restrictions. Proper runtime modifications to iOS kernel modify security features as necessary and result in:</p>
+            <p>shitc0ver is designed to be unstable and enable horror mode from the moment you boot&#8203loop your device. Built-in runtime policy softener allows running code without Apple's notarization and pervasive restrictions. Proper runtime modifications to iOS kernel modify security features as necessary and result in:</p>
             </br>
             <h2>Lots Of Extra Security Vulnerabilities</h2>
             <p>shitc0ver opens security layers designed to protect your personal information and your iOS device by deleting them. With this security adjusted on your iOS device, you can run your favorite jail&#8203break apps and tweaks while being unprotected from attackers.</p>
             </br>
-            <h2>Stability & Battery Life</h2>
+            <h2>Instability & Bad Battery Life</h2>
             <p>shitc0ver is tirelessly developed and rigorously tested with software instability and bad battery life in mind. If you're experiencing good stability or battery life, we recommend searching your device for faulty tweaks.</p>
             </br>
-            <h2>Reconciliation of Services</h2>
-            <p>Services such as iCloud, iMessage, FaceTime, Apple Pay, Visual Voicemail, Weather, and Stocks, have been reconciled and still work on the device.</p>
+            <h2>Services</h2>
+            <p>Services such as iCloud, iMessage, FaceTime, Apple Pay, Visual Voicemail, Weather, and Stonks, have been absolutely fucked and will not work on the device.</p>
             </br>
             <h2>Future Software Updates</h2>
-            <p>The ability to apply future updates is retained. Modifications to iOS kernel are done in memory. This results in the jailbroken iPhone, iPad, or iPod touch staying operable when a future Apple-supplied iOS update is installed.</p>
+            <p>The ability to apply future updates is retained. Modifications to iOS kernel are done in memory dynamically. This results in the bootlooped iPhone, iPad, or iPod touch staying usable when a future Apple-supplied iOS update is installed.</p>
             </br>
             <h2>iOS Updates</h2>
-            <p>shitc0ver Team strongly cautions against installing any iOS software update that breaks shitc0ver as you can't re-boot&#8203loop on versions of iOS that are not supported by shitc0ver at that time. </p>
+            <p>The shitc0ver Team does not recommend installing any iOS software update that breaks shitc0ver as you can't re-boot&#8203loop your device on versions of iOS that are not supported by shitc0ver at that time. </p>
             </br>
             <h2>Jail&#8203break Legality</h2>
-            <p>It is also important to note that iOS Jail&#8203breaking is exempt and legal under DMCA. Any installed jail&#8203break software can be uninstalled by re-jail&#8203breaking with the restore rootfs option to take Apple's service for an iPhone, iPad, or iPod touch that was previously jailbroken.</p>
+            <p>It is also important to note that iOS Jail&#8203breaking is legal and exempt under DMCA. Any installed jail&#8203break software can be uninstalled by re-jail&#8203breaking with the Restore rootFS option to have Apple's service for an iPhone, iPad, or iPod touch that was previously jailbroken.</p>
         </div>
         <div id="oldRelease">
         </div>
 
         <div class="hidden" id="supportUnc0ver">
             <h1>Help Support shitc0ver</h1>
-            <p style="max-width:400px">Please consider supporting future development of shitc0ver by donating:</p></br>
+            <p style="max-width:400px">Please consider supporting future developments of shitc0ver by donating:</p></br>
             <div id="payLinks">
 
             <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
@@ -1007,7 +1019,7 @@
 
             <a href="https://github.com/MichelePip">
                 <div class="creditsCardWrapper">
-                    <img alt="sbingner" src="https://github.com/MichelePip.png">
+                    <img alt="michelepip" src="https://github.com/MichelePip.png">
                     <span class="devName">Michele Pipicelli</span>
                     <span class="devType">Developer</span>
                     <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
@@ -1025,6 +1037,24 @@
             </a>
            
 
+            <a href="https://twitter.com/hmuy0608">
+                <div class="creditsCardWrapper">
+                    <img alt="michelepip" src="https://avatars.githubusercontent.com/u/66995788?v=4">
+                    <span class="devName">hmuy</span>
+                    <span class="devType">Developer</span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 300 300"
+                        style="enable-background:new 0 0 300 300;" xml:space="preserve" class="devSocialIcon" width=20
+                        height=20>
+                        <path class="st0" d="M300,57c-11,4.9-22.9,8.2-35.3,9.7c12.7-7.6,22.5-19.7,27.1-34.1c-11.9,7.1-25.1,12.2-39.1,14.9
+                            c-11.2-12-27.2-19.4-44.9-19.4c-34,0-61.5,27.6-61.5,61.5c0,4.8,0.5,9.5,1.6,14c-51.2-2.6-96.5-27.1-126.9-64.3
+                            c-5.3,9.1-8.3,19.7-8.3,30.9c0,21.4,10.9,40.2,27.4,51.2c-10.1-0.3-19.6-3.1-27.9-7.7c0,0.3,0,0.5,0,0.8c0,29.8,21.2,54.7,49.4,60.4
+                            c-5.2,1.4-10.6,2.2-16.2,2.2c-4,0-7.8-0.4-11.6-1.1c7.8,24.5,30.6,42.2,57.5,42.7c-21.1,16.5-47.6,26.3-76.4,26.3
+                            c-5,0-9.9-0.3-14.7-0.9c27.2,17.5,59.6,27.7,94.3,27.7c113.2,0,175.1-93.8,175.1-175.1c0-2.7-0.1-5.3-0.2-8
+                            C281.3,80.1,291.7,69.3,300,57L300,57z" />
+                    </svg>
+                </div>
+            </a>
             <!-- <a href="https://phonerebel.com/">
                 <div class="creditsCardWrapper">
                     <img alt="sbingner" src="img/twitter/phonerebel.jpg">
@@ -1074,9 +1104,12 @@
         </div>
         <p style="color:var(--light-text-color);margin-top: 10px;opacity:.85">
                 Thanks to:</br>
-                <a href="https://twitter.com/CStar_OW">Coolstar</a> for making a actually good jailbreak</br>
-		<a href="https://twitter.com/rpwnage">Rpwnage</a> another great jailbreak: Coming Soon</br>
-            </p>
+                <a href="https://twitter.com/CStar_OW">Coolstar</a> and <a href="https://twitter.com/OdysseyTeam_">TheOdysseyTeam</a> for making an actually good jailbreak: <a href="https://taurine.app">Taurine</a>
+	    
+        </p>
+        <p style="color:var(--light-text-color);margin-top: 10px;opacity:.85">
+            <a href="https://twitter.com/rpwnage">Rpwnage</a> for another great jailbreak: Manticore (Comming Soon)
+        </br>
         <p id="footer" style="margin-top: 25px;color:var(--text-color)">
             </br></br></br></br></br></br>
 
