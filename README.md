@@ -7,7 +7,7 @@ More freezes!
 More respring loops!
 
 Here are shitc0ver.dev, we pride ourselves in creating the worst jailbreak possible!
-We also pride ourselfs in having our website writen in 69% HTML *nice*
+We also pride ourselfs in having our website writen in 69% HTML *nice*.
 
 
 
