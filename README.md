@@ -6,7 +6,7 @@ More random bootloops!
 More freezes!
 More respring loops!
 
-Here are shitc0ver.dev, we pride ourselves in creating the worst jailbreak possible!
+Here are shitc0ver.dev, we pride ourselves in creating the worst jailbreak possible!</br>
 We also pride ourselfs in having our website writen in 69% HTML *nice*.
 
 
