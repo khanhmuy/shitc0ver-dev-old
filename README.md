@@ -1,4 +1,4 @@
-# shitc0ver is OUT NOW with new shit features!
+![](shit.png)
 
 
 
